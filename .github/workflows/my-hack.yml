@@ -1,6 +1,7 @@
 name: my-hack
 on:
   pull_request:
+  push:
 jobs:
   my-job:
     runs-on: ubuntu-latest
